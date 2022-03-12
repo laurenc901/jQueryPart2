@@ -1,5 +1,3 @@
-
-
 $("form").on("submit", function(event){
     event.preventDefault();
     makeList(); 
@@ -11,7 +9,7 @@ function makeList(){
     let $value = $("#title").val();
     let $rating = $("#rating").val();
     let $li = $("<li class = 'list'></li>").text($value);
-    let $ratingDiv = $("<div>").text("Stars :" + $rating);
+    let $ratingDiv = $("<div class = 'ratingDiv'></div>").text("Stars \u2606 :" + " " + $rating);
     let $deleteBtn = ("<button class = 'del'>Delete</button>");
    
    $($li).append( $ratingDiv, $deleteBtn);
