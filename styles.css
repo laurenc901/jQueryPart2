@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+position: relative;
+top: 4rem;
+left: 40vw;
+}
+
+form {
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: 20vw;
+}
+
+input {
+    margin: 8px;
+}
+
+.list {
+    display: flex;
+    font-style: italic;
+    position: relative;
+    top: 4rem;
+    left: 10vh;
+    padding: 10px;
+}
+
+.ratingDiv {
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.del {
+  margin-left: 20px;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #1A1A1A;
+  font-weight:bold;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #1A1A1A;
+  cursor: pointer;
+  line-height: normal;
+  outline: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+}
